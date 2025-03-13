@@ -1,7 +1,7 @@
 import Cl_entidadA from "./Cl_entidadA.js";
 export default class Cl_entidadB extends Cl_entidadA {
   constructor(attX, attY) {
-    super(attX, attY);
+    super(attX);
     this.attX *= 2;
     this.attY = attY;
   }
